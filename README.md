@@ -1,24 +1,17 @@
 # README
+## Achived goals
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- crud for articles
+- hook up the bootstrap
+- deployment to heroku. [Link](https://newspaper-tima.herokuapp.com/)
 
-Things you may want to cover:
+## Plans for improvement:
 
-* Ruby version
+- comments under article. one to many assosiations
+- login
+- add filters for sorting articles
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Screenshots
+![](./pics/about.png)
+![](./pics/new.png)
+![](./pics/index.png)
