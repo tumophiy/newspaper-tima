@@ -11,6 +11,12 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container pt-5">
+      <nav class="navbar fixed-top navbar-light bg-light justify-content-center">
+        <%= link_to "Home", articles_path, class: "navbar-brand pl-5" %>
+        <%= link_to "About", home_index_path, class: "navbar-brand lp-5" %>
+      </nav>
+      <%= yield %>
+    </div>
   </body>
 </html>
